@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Gilda Display;
+    src: url(../font/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Maven_Pro;
+    src: url(../font/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-fontcolor: #BCBCBC;
+    --header-backgroundcolor: #333333; 
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    background-color: var(--header-backgroundcolor);
+    height: 100vh;
+}
+
+header h3 {
+    color: var(--header-fontcolor);
+    font-family: Maven_Pro;
+    font-size: 1.1rem;
+    letter-spacing: 0.25rem;
+    padding-left: 20px;
+}
+
+header span {
+    padding-left: 0.625rem;
+}
+
+header section {
+    width: 18.75rem;
+    height: 14.1875rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.875rem;
+    background: linear-gradient(45deg, rgba(255, 0, 255, 0.475) 20%, rgba(39, 39, 240, 0.88) 50%, #48CEFA 100%); 
+    border-radius: 0.3125rem;
+}
+
+header h2 {
+    color: white;
+    font-family: Gilda Display;
+    font-weight: 100px;
+    font-size: 3rem;
+    display: block;
+}
+
+.fresh {
+    padding-top: 20px;
+}
+
+.header_section_content {
+    color: white;
+    font-family: Maven_Pro;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 1.625rem;
+}
+
+header ul {
+    text-align: end;
+    padding-top: 2.375rem;
+}
+
+.header_links {
+    color: var(--header-fontcolor);
+    text-decoration: none;
+    font-family: Maven_Pro;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 16px;
+    padding-right: 1.425rem;
+}
+
+.projects_headline {
+    background-repeat: no-repeat;
+    opacity: calc(0.1);
+    margin-top: 18.75rem;
+    width: 47.25rem;
+    height: 6.3125rem;
+    margin-left: 3.1637rem;
+}
+
