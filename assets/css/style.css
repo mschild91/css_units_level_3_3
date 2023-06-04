@@ -28,6 +28,26 @@ header {
     height: 100vh;
 }
 
+header div {
+
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.125rem;
+    border: solid #BCBCBC;
+    margin-top: 20vh;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    width: 9.375rem;
+}
+
+header div a {
+    color: #BCBCBC;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 header h3 {
     color: var(--header-fontcolor);
     font-family: Maven_Pro;
