@@ -89,10 +89,53 @@ header ul {
 
 .projects_headline {
     background-repeat: no-repeat;
-    opacity: calc(0.1);
+    opacity: calc(0.03);
     margin-top: 18.75rem;
     width: 47.25rem;
     height: 6.3125rem;
     margin-left: 3.1637rem;
 }
 
+main {
+    font-family: Times;
+}
+
+main h2 {
+    font-size: 3.5rem;
+    margin-left: 3.125rem;
+    margin-top: -0.9375rem;
+    margin-bottom: 3.5rem;
+}
+
+.projects p{
+    font-family: Maven_Pro;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 3.125rem;
+    margin-bottom: 13.5rem;
+}
+
+.projects_content {
+    margin-left: 24.8438rem;
+}
+
+.main_img {
+    margin-bottom: 2.25rem;
+}
+
+.img_headline {
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+}
+
+.img_content {
+    font-size: 1rem;
+}
+
+.second_main_img img{
+    margin-top: 5rem;
+}
+
+.third_main_img {
+    margin-top: 5rem;
+}
