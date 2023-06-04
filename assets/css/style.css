@@ -76,6 +76,23 @@ header ul {
     padding-top: 2.375rem;
 }
 
+.home_button a{
+    font-family: Maven_Pro;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: solid 2px #BCBCBC;
+    margin-top: 20vh;
+    border-radius: 0.3125rem;
+    width: 9.375rem;
+    text-decoration: none;
+    color: #BCBCBC;
+}
+
 .header_links {
     color: var(--header-fontcolor);
     text-decoration: none;
